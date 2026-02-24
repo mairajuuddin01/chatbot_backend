@@ -20,7 +20,7 @@ app.get('/',(req,res)=>{
 // middleware here 
 app.use(cors())
 app.use(express.json());
-app.use('/api/bot',router)
+app.use('/api',router)
 
 
 
